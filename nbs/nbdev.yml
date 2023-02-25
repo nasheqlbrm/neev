@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "neev"
+  site-url: "https://nasheqlbrm.github.io/neev"
+  description: "Follow along with micrograd"
+  repo-branch: main
+  repo-url: "https://github.com/nasheqlbrm/neev"

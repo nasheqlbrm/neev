@@ -3,12 +3,12 @@
 # %% auto 0
 __all__ = ['Value']
 
-# %% ../nbs/00_engine.ipynb 2
+# %% ../nbs/00_engine.ipynb 3
 import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-# %% ../nbs/00_engine.ipynb 21
+# %% ../nbs/00_engine.ipynb 22
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 

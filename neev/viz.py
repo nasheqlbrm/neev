@@ -3,11 +3,11 @@
 # %% auto 0
 __all__ = ['trace', 'draw_dot']
 
-# %% ../nbs/01_viz.ipynb 2
+# %% ../nbs/01_viz.ipynb 3
 from graphviz import Digraph
 from .engine import *
 
-# %% ../nbs/01_viz.ipynb 5
+# %% ../nbs/01_viz.ipynb 6
 def trace(root:Value):# root node of the computation graph
     '''builds a set of all nodes and edges in a graph'''
     nodes, edges = set(), set()
@@ -20,7 +20,7 @@ def trace(root:Value):# root node of the computation graph
     build(root)
     return nodes, edges
 
-# %% ../nbs/01_viz.ipynb 6
+# %% ../nbs/01_viz.ipynb 7
 def draw_dot(root:Value,# root node of the computation graph 
              format='svg',# png | svg | ... 
              rankdir='LR'):# TB (top to bottom graph) | LR (left to right)

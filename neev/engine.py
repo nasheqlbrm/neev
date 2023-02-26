@@ -12,10 +12,12 @@ import matplotlib.pyplot as plt
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 
-                 data,
+                 data,# a scalar value
                  _children=(),# The children of this value
-                 _op=''):# The operation that created this value
+                 _op='',# The operation that created this value
+                 label=''):
         self.data, self._prev, self._op = data, set(_children), _op
+        self.label, self.grad = label, 0
         
     def __add__(self, other):
         out = Value(self.data + other.data, (self,other), '+')

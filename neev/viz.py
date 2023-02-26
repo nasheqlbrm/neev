@@ -4,11 +4,12 @@
 __all__ = ['trace', 'draw_dot']
 
 # %% ../nbs/01_viz.ipynb 2
-from .engine import *
 from graphviz import Digraph
+from .engine import *
 
-# %% ../nbs/01_viz.ipynb 4
-def trace(root):
+# %% ../nbs/01_viz.ipynb 5
+def trace(root:Value):# root node of the computation graph
+    '''builds a set of all nodes and edges in a graph'''
     nodes, edges = set(), set()
     def build(v):
         if v not in nodes:
@@ -19,8 +20,8 @@ def trace(root):
     build(root)
     return nodes, edges
 
-# %% ../nbs/01_viz.ipynb 5
-def draw_dot(root, 
+# %% ../nbs/01_viz.ipynb 6
+def draw_dot(root:Value,# root node of the computation graph 
              format='svg',# png | svg | ... 
              rankdir='LR'):# TB (top to bottom graph) | LR (left to right)
     """
@@ -31,12 +32,16 @@ def draw_dot(root,
     dot = Digraph(format=format, graph_attr={'rankdir': rankdir}) #, node_attr={'rankdir': 'TB'})
     
     for n in nodes:
-        dot.node(name=str(id(n)), label = "{ data %.4f | grad %.4f }" % (n.data, n.grad), shape='record')
+        # for any value in the graph, create a rectangular (`record`) node for it         
+        dot.node(name=str(id(n)), label = f'{n.label} | data {n.data:.4f} | grad {n.grad:.4f}', shape='record')
         if n._op:
+            # if this value is the result of some operation create an op node for it
             dot.node(name=str(id(n)) + n._op, label=n._op)
+            # and connect this node to it
             dot.edge(str(id(n)) + n._op, str(id(n)))
     
     for n1, n2 in edges:
+        # connect n1 to the op node of n2
         dot.edge(str(id(n1)), str(id(n2)) + n2._op)
     
     return dot

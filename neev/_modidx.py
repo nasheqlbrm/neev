@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nasheqlbrm.github.io',
                 'git_url': 'https://github.com/nasheqlbrm/neev',
                 'lib_path': 'neev'},
-  'syms': {'neev.engine': {'neev.engine.foo': ('engine.html#foo', 'neev/engine.py')}}}
+  'syms': { 'neev.engine': { 'neev.engine.Value': ('engine.html#value', 'neev/engine.py'),
+                             'neev.engine.Value.__add__': ('engine.html#value.__add__', 'neev/engine.py'),
+                             'neev.engine.Value.__init__': ('engine.html#value.__init__', 'neev/engine.py'),
+                             'neev.engine.Value.__mul__': ('engine.html#value.__mul__', 'neev/engine.py'),
+                             'neev.engine.Value.__repr__': ('engine.html#value.__repr__', 'neev/engine.py')}}}

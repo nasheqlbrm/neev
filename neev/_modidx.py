@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nasheqlbrm.github.io',
                 'git_url': 'https://github.com/nasheqlbrm/neev',
                 'lib_path': 'neev'},
-  'syms': {'neev.core': {'neev.core.foo': ('core.html#foo', 'neev/core.py')}}}
+  'syms': {'neev.engine': {'neev.engine.foo': ('engine.html#foo', 'neev/engine.py')}}}

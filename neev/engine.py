@@ -17,7 +17,8 @@ class Value:
                  _op='',# The operation that created this value
                  label=''):
         self.data, self._prev, self._op = data, set(_children), _op
-        self.label, self.grad = label, 0
+        self.label = label 
+        self.grad = 0 # derivative of the Loss with respect to this value
         
     def __add__(self, other):
         out = Value(self.data + other.data, (self,other), '+')

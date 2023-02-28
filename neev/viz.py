@@ -65,7 +65,7 @@ def get_dot(root:Value,# root node of the computation graph
 # %% ../nbs/01_viz.ipynb 15
 # https://stackoverflow.com/questions/4596962/display-graph-without-saving-using-pydot
 # https://stackoverflow.com/questions/30334385/display-svg-in-ipython-notebook-from-a-function
-def view_dot(g):# a pydot graph
+def view_dot(g:pydot.Dot):# a pydot representation of a computation graph
     '''view the computation graph as a svg'''
     svg = SVG(g.create_svg())
     display(svg)

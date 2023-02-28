@@ -26,7 +26,7 @@ def get_dot(root:Value,# root node of the computation graph
              format='svg',# png | svg | ... 
              rankdir='LR'):# TB (top to bottom graph) | LR (left to right)
     """
-    visualize the graph using fastdot
+    get a pydot graph corresponding to this computation graph
     """
     assert rankdir in ['LR', 'TB']
     
@@ -67,5 +67,6 @@ def get_dot(root:Value,# root node of the computation graph
 # https://stackoverflow.com/questions/4596962/display-graph-without-saving-using-pydot
 # https://stackoverflow.com/questions/30334385/display-svg-in-ipython-notebook-from-a-function
 def view_dot(g):# a pydot graph
+    '''view the computation graph in svg'''
     svg = SVG(g.create_svg())
     display(svg)

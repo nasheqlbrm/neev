@@ -10,4 +10,6 @@ d = { 'settings': { 'branch': 'main',
                              'neev.engine.Value.__init__': ('engine.html#value.__init__', 'neev/engine.py'),
                              'neev.engine.Value.__mul__': ('engine.html#value.__mul__', 'neev/engine.py'),
                              'neev.engine.Value.__repr__': ('engine.html#value.__repr__', 'neev/engine.py')},
-            'neev.viz': {'neev.viz.draw_dot': ('viz.html#draw_dot', 'neev/viz.py'), 'neev.viz.trace': ('viz.html#trace', 'neev/viz.py')}}}
+            'neev.viz': { 'neev.viz.get_dot': ('viz.html#get_dot', 'neev/viz.py'),
+                          'neev.viz.trace': ('viz.html#trace', 'neev/viz.py'),
+                          'neev.viz.view_dot': ('viz.html#view_dot', 'neev/viz.py')}}}

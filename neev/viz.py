@@ -22,9 +22,8 @@ def trace(root:Value):# root node of the computation graph
     return nodes, edges
 
 # %% ../nbs/01_viz.ipynb 14
-def get_dot(root:Value,# root node of the computation graph 
-             format='svg',# png | svg | ... 
-             rankdir='LR'):# TB (top to bottom graph) | LR (left to right)
+def get_dot(root:Value,# root node of the computation graph
+            rankdir='LR'):# TB (top to bottom graph) | LR (left to right)
     """
     get a pydot graph corresponding to this computation graph
     """
@@ -67,6 +66,6 @@ def get_dot(root:Value,# root node of the computation graph
 # https://stackoverflow.com/questions/4596962/display-graph-without-saving-using-pydot
 # https://stackoverflow.com/questions/30334385/display-svg-in-ipython-notebook-from-a-function
 def view_dot(g):# a pydot graph
-    '''view the computation graph in svg'''
+    '''view the computation graph as a svg'''
     svg = SVG(g.create_svg())
     display(svg)

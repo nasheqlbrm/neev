@@ -30,7 +30,7 @@ def get_dot(root:Value,# root node of the computation graph
     assert rankdir in ['LR', 'TB']
     
     op_dict = {'+' : 'PL', '-': 'MN', 
-               '*' : 'MU', '/': 'DI'}
+               '*' : 'MU', '/': 'DI', 'tanh':'tanh'}
     
     nodes, edges = trace(root)
     dot = Dot(rankdir=rankdir,directed=True)
@@ -65,7 +65,8 @@ def get_dot(root:Value,# root node of the computation graph
 # %% ../nbs/01_viz.ipynb 15
 # https://stackoverflow.com/questions/4596962/display-graph-without-saving-using-pydot
 # https://stackoverflow.com/questions/30334385/display-svg-in-ipython-notebook-from-a-function
-def view_dot(g:pydot.Dot):# a pydot representation of a computation graph
+def view_dot(root:Value):# root node of the computation graphg:pydot.Dot
     '''view the computation graph as a svg'''
+    g = get_dot(root)
     svg = SVG(g.create_svg())
     display(svg)

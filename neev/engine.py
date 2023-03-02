@@ -8,13 +8,13 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-# %% ../nbs/00_engine.ipynb 22
+# %% ../nbs/00_engine.ipynb 18
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 
                  data,# a scalar value
                  _children=(),# The children of this value
-                 _op='',# The operation that created this value
+                 _op='',# The operation (+,-,* or tanh) that created this value
                  label=''):
         self.data, self._prev, self._op = data, set(_children), _op
         self.label = label 
@@ -26,6 +26,12 @@ class Value:
     
     def __mul__(self, other):
         out = Value(self.data * other.data, (self,other),'*')
+        return out
+    
+    def tanh(self):
+        x = self.data
+        t = (math.exp(2*x)-1.)/(math.exp(2*x)+1.)
+        out = Value(t,(self,),'tanh',)
         return out
     
     def __repr__(self):

@@ -8,7 +8,8 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-# %% ../nbs/00_engine.ipynb 18
+# %% ../nbs/00_engine.ipynb 38
+# Add ability to chain the local gradient to the incoming gradient
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 
@@ -19,19 +20,38 @@ class Value:
         self.data, self._prev, self._op = data, set(_children), _op
         self.label = label 
         self.grad = 0 # derivative of the Loss with respect to this value
+        self._backward = lambda: None #function to chain the incoming gradient with the local gradient
         
     def __add__(self, other):
         out = Value(self.data + other.data, (self,other), '+')
+        
+        def _backward():
+            self.grad = 1.0 * out.grad
+            other.grad = 1.0 * out.grad
+        out._backward = _backward
+        
         return out
     
     def __mul__(self, other):
         out = Value(self.data * other.data, (self,other),'*')
+                
+        def _backward():
+            self.grad = other.data * out.grad
+            other.grad = self.data * out.grad
+        out._backward = _backward
+        
         return out
     
     def tanh(self):
         x = self.data
         t = (math.exp(2*x)-1.)/(math.exp(2*x)+1.)
         out = Value(t,(self,),'tanh',)
+        
+                
+        def _backward():
+            self.grad = (1.0 - t**2) * out.grad
+        out._backward = _backward
+        
         return out
     
     def __repr__(self):

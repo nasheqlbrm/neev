@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 # %% ../nbs/00_engine.ipynb 48
 # accumulate gradients
 # allow adding and multiplying constants
+# exponentiate, power, divide, subtract
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 
@@ -48,17 +49,47 @@ class Value:
         
         return out
     
-    def __rmul__(self, other): #if Python cannot do other * self
+    def __pow__(self,other): # self^{other}
+        assert isinstance(other, (int,float)), "only support int/float powers for now" 
+        t = self.data ** other 
+        out = Value(t, (self,),f'**{other}')
+        
+        def _backward():
+            self.grad += (other * ( self.data ** (other-1) )) * out.grad
+        out._backward = _backward
+                
+        return out
+            
+    def __rmul__(self, other): #if Python cannot do other times self
         return self * other
+    
+    def __truediv__(self, other): #self/other
+        return self * (other**-1)
+    
+    def __neg__(self): #-self
+        return self * -1
+    
+    def __sub__(self, other):
+        return self + (-other)
     
     def tanh(self):
         x = self.data
         t = (math.exp(2*x)-1.)/(math.exp(2*x)+1.)
         out = Value(t,(self,),'tanh',)
-        
-                
+              
         def _backward():
             self.grad += (1.0 - t**2) * out.grad
+        out._backward = _backward
+        
+        return out
+    
+    def exp(self):
+        x = self.data
+        t = math.exp(x)
+        out = Value(t,(self,),'exp',)
+        
+        def _backward():
+            self.grad += t * out.grad
         out._backward = _backward
         
         return out

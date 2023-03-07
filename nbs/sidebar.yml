@@ -5,3 +5,5 @@ website:
       - 00_engine.ipynb
       - 01_viz.ipynb
       - 03_manual_backprop_example_1.ipynb
+      - 04_examples.ipynb
+      - 6_nn.ipynb

@@ -3,11 +3,11 @@
 # %% auto 0
 __all__ = ['Neuron']
 
-# %% ../nbs/6_nn.ipynb 2
+# %% ../nbs/6_nn.ipynb 3
 import random
 from .engine import Value
 
-# %% ../nbs/6_nn.ipynb 3
+# %% ../nbs/6_nn.ipynb 4
 class Neuron:
 
     def __init__(self, nin):

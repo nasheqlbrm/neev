@@ -8,7 +8,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-# %% ../nbs/00_engine.ipynb 48
+# %% ../nbs/00_engine.ipynb 50
 # accumulate gradients
 # allow adding and multiplying constants
 # exponentiate, power, divide, subtract

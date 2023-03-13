@@ -12,17 +12,18 @@ import matplotlib.pyplot as plt
 # accumulate gradients
 # allow adding and multiplying constants
 # exponentiate, power, divide, subtract
+# ReLU
 class Value:
     '''stores a single scalar value and its gradient'''
     def __init__(self, 
                  data,# a scalar value
                  _children=(),# The children of this value
-                 _op='',# The operation (+,-,* or tanh) that created this value
+                 _op='',# The operation (such as +,-,*,tanh etc) that created this value
                  label=''):
         self.data, self._prev, self._op = data, set(_children), _op
         self.label = label 
-        self.grad = 0 # derivative of the Loss with respect to this value
-        self._backward = lambda: None #function to chain the incoming gradient with the local gradient
+        self.grad = 0 # derivative of the final Loss with respect to this value
+        self._backward = lambda: None #function to chain the incoming gradient with the local gradient(s)
         
     def __add__(self, other):
         other = other if isinstance(other, Value) else Value(other)
@@ -90,6 +91,17 @@ class Value:
         
         def _backward():
             self.grad += t * out.grad
+        out._backward = _backward
+        
+        return out
+    
+    def relu(self):
+        x = self.data
+        t = max(x,0.)
+        out = Value(t,(self,),'relu',)
+        
+        def _backward():
+            self.grad += (1. if x >= 0. else 0.) * out.grad
         out._backward = _backward
         
         return out

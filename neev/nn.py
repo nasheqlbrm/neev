@@ -23,7 +23,7 @@ class Neuron(Module):
                  nonlin=True # do we have a non-linearity at the end
                 ):
         self.w = [Value(random.uniform(-1,1)) for i in range(nin)]
-        self.b = Value(0.)
+        self.b = Value(random.uniform(-1,1))
         self.nonlin = nonlin
         
     def __call__(self,x):
@@ -61,7 +61,7 @@ class MLP(Module):
                  nouts # list with the number of neurons in each layer of the MLP
                 ):
         sz = [nin] + nouts
-        self.layers = [Layer(sz[i], sz[i+1]) for i in range(len(nouts))]
+        self.layers = [Layer(sz[i], sz[i+1], nonlin=i!=len(nouts)-1) for i in range(len(nouts))]
 
     def __call__(self, x):
         for layer in self.layers:

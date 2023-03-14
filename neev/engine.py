@@ -93,7 +93,7 @@ class Value:
     
     def  __rsub__(self, other): #if cannot do other - self
         return other + (-self)
-            
+    
     def __rmul__(self, other): #if cannot do other times self
         return self*other
     
@@ -101,7 +101,7 @@ class Value:
         return self * (other**-1)
     
     def __rtruediv__(self, other): # if cannot do other / self
-        return other * self**-1
+        return other * (self**-1)
     
     def tanh(self):
         x = self.data
@@ -126,4 +126,4 @@ class Value:
         return out
     
     def __repr__(self):
-        return f'Value(data={self.data})'
+        return f"Value(data={self.data}, grad={self.grad})"

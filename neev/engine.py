@@ -59,14 +59,12 @@ class Value:
         return out    
     
     def relu(self):
-        x = self.data
-        t = max(x,0.)
-        out = Value(t,(self,),'relu',)
-        
+        out = Value(0 if self.data < 0 else self.data, (self,), 'ReLU')
+
         def _backward():
-            self.grad += (1. if x >= 0. else 0.) * out.grad
+            self.grad += (out.data > 0) * out.grad
         out._backward = _backward
-        
+
         return out
     
     def backward(self):

@@ -33,7 +33,7 @@ def get_dot(root:Value,# root node of the computation graph
         op_dict = {'+' : 'PL', '-': 'MN', 
                    '*' : 'MU', '/': 'DI', 
                    'tanh':'tanh','exp':'exp',
-                   'relu':'relu'
+                   'ReLU':'ReLU'
                   }
         if op.startswith('**'):
             return (op

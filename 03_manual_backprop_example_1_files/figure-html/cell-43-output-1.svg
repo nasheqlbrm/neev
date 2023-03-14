@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="861pt" height="274pt" viewBox="0.00 0.00 861.00 274.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 270)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-270 857,-270 857,4 -4,4"/>
+<!-- 4430480912 -->
+<g id="node1" class="node">
+<title>4430480912</title>
+<g id="a_node1"><a xlink:title="x1w1 
+ data -6.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M267,-124C267,-124 199,-124 199,-124 193,-124 187,-118 187,-112 187,-112 187,-83 187,-83 187,-77 193,-71 199,-71 199,-71 267,-71 267,-71 273,-71 279,-77 279,-83 279,-83 279,-112 279,-112 279,-118 273,-124 267,-124"/>
+<text text-anchor="middle" x="233" y="-108.8" font-family="Times,serif" font-size="14.00">x1w1 </text>
+<text text-anchor="middle" x="233" y="-93.8" font-family="Times,serif" font-size="14.00"> data -6.0000 </text>
+<text text-anchor="middle" x="233" y="-78.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- PL4430481536 -->
+<g id="node8" class="node">
+<title>PL4430481536</title>
+<g id="a_node8"><a xlink:title="+">
+<path fill="none" stroke="black" d="M332.33,-144C332.33,-144 322.67,-144 322.67,-144 318.83,-144 315,-140.17 315,-136.33 315,-136.33 315,-128.67 315,-128.67 315,-124.83 318.83,-121 322.67,-121 322.67,-121 332.33,-121 332.33,-121 336.17,-121 340,-124.83 340,-128.67 340,-128.67 340,-136.33 340,-136.33 340,-140.17 336.17,-144 332.33,-144"/>
+<text text-anchor="middle" x="327.5" y="-128.8" font-family="Times,serif" font-size="14.00">+</text>
+</a>
+</g>
+</g>
+<!-- 4430480912&#45;&gt;PL4430481536 -->
+<g id="edge14" class="edge">
+<title>4430480912-&gt;PL4430481536</title>
+<path fill="none" stroke="black" d="M279.44,-114.69C287.95,-117.91 296.5,-121.15 303.94,-123.96"/>
+<polygon fill="black" stroke="black" points="302.53,-127.17 313.12,-127.44 305,-120.62 302.53,-127.17"/>
+</g>
+<!-- MU4430480912 -->
+<g id="node2" class="node">
+<title>MU4430480912</title>
+<g id="a_node2"><a xlink:title="*">
+<path fill="none" stroke="black" d="M143.33,-109C143.33,-109 135.67,-109 135.67,-109 131.83,-109 128,-105.17 128,-101.33 128,-101.33 128,-93.67 128,-93.67 128,-89.83 131.83,-86 135.67,-86 135.67,-86 143.33,-86 143.33,-86 147.17,-86 151,-89.83 151,-93.67 151,-93.67 151,-101.33 151,-101.33 151,-105.17 147.17,-109 143.33,-109"/>
+<text text-anchor="middle" x="139.5" y="-93.8" font-family="Times,serif" font-size="14.00">*</text>
+</a>
+</g>
+</g>
+<!-- MU4430480912&#45;&gt;4430480912 -->
+<g id="edge1" class="edge">
+<title>MU4430480912-&gt;4430480912</title>
+<path fill="none" stroke="black" d="M151.36,-97.5C157.68,-97.5 166.2,-97.5 175.34,-97.5"/>
+<polygon fill="black" stroke="black" points="175.17,-101 185.17,-97.5 175.17,-94 175.17,-101"/>
+</g>
+<!-- 4430485088 -->
+<g id="node3" class="node">
+<title>4430485088</title>
+<g id="a_node3"><a xlink:title="o 
+ data 0.7071 
+ grad 1.0000">
+<path fill="none" stroke="black" d="M841,-194C841,-194 777,-194 777,-194 771,-194 765,-188 765,-182 765,-182 765,-153 765,-153 765,-147 771,-141 777,-141 777,-141 841,-141 841,-141 847,-141 853,-147 853,-153 853,-153 853,-182 853,-182 853,-188 847,-194 841,-194"/>
+<text text-anchor="middle" x="809" y="-178.8" font-family="Times,serif" font-size="14.00">o </text>
+<text text-anchor="middle" x="809" y="-163.8" font-family="Times,serif" font-size="14.00"> data 0.7071 </text>
+<text text-anchor="middle" x="809" y="-148.8" font-family="Times,serif" font-size="14.00"> grad 1.0000</text>
+</a>
+</g>
+</g>
+<!-- tanh4430485088 -->
+<g id="node4" class="node">
+<title>tanh4430485088</title>
+<g id="a_node4"><a xlink:title="tanh">
+<path fill="none" stroke="black" d="M721.33,-179C721.33,-179 696.67,-179 696.67,-179 692.83,-179 689,-175.17 689,-171.33 689,-171.33 689,-163.67 689,-163.67 689,-159.83 692.83,-156 696.67,-156 696.67,-156 721.33,-156 721.33,-156 725.17,-156 729,-159.83 729,-163.67 729,-163.67 729,-171.33 729,-171.33 729,-175.17 725.17,-179 721.33,-179"/>
+<text text-anchor="middle" x="709" y="-163.8" font-family="Times,serif" font-size="14.00">tanh</text>
+</a>
+</g>
+</g>
+<!-- tanh4430485088&#45;&gt;4430485088 -->
+<g id="edge2" class="edge">
+<title>tanh4430485088-&gt;4430485088</title>
+<path fill="none" stroke="black" d="M729.36,-167.5C736.42,-167.5 744.79,-167.5 753.4,-167.5"/>
+<polygon fill="black" stroke="black" points="753.25,-171 763.25,-167.5 753.25,-164 753.25,-171"/>
+</g>
+<!-- 4430482016 -->
+<g id="node5" class="node">
+<title>4430482016</title>
+<g id="a_node5"><a xlink:title="x2w2 
+ data 0.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M265,-195C265,-195 201,-195 201,-195 195,-195 189,-189 189,-183 189,-183 189,-154 189,-154 189,-148 195,-142 201,-142 201,-142 265,-142 265,-142 271,-142 277,-148 277,-154 277,-154 277,-183 277,-183 277,-189 271,-195 265,-195"/>
+<text text-anchor="middle" x="233" y="-179.8" font-family="Times,serif" font-size="14.00">x2w2 </text>
+<text text-anchor="middle" x="233" y="-164.8" font-family="Times,serif" font-size="14.00"> data 0.0000 </text>
+<text text-anchor="middle" x="233" y="-149.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4430482016&#45;&gt;PL4430481536 -->
+<g id="edge9" class="edge">
+<title>4430482016-&gt;PL4430481536</title>
+<path fill="none" stroke="black" d="M277.27,-151.66C286.5,-148.07 295.88,-144.42 303.95,-141.28"/>
+<polygon fill="black" stroke="black" points="305.19,-144.55 313.24,-137.66 302.65,-138.03 305.19,-144.55"/>
+</g>
+<!-- MU4430482016 -->
+<g id="node6" class="node">
+<title>MU4430482016</title>
+<g id="a_node6"><a xlink:title="*">
+<path fill="none" stroke="black" d="M143.33,-180C143.33,-180 135.67,-180 135.67,-180 131.83,-180 128,-176.17 128,-172.33 128,-172.33 128,-164.67 128,-164.67 128,-160.83 131.83,-157 135.67,-157 135.67,-157 143.33,-157 143.33,-157 147.17,-157 151,-160.83 151,-164.67 151,-164.67 151,-172.33 151,-172.33 151,-176.17 147.17,-180 143.33,-180"/>
+<text text-anchor="middle" x="139.5" y="-164.8" font-family="Times,serif" font-size="14.00">*</text>
+</a>
+</g>
+</g>
+<!-- MU4430482016&#45;&gt;4430482016 -->
+<g id="edge3" class="edge">
+<title>MU4430482016-&gt;4430482016</title>
+<path fill="none" stroke="black" d="M151.36,-168.5C158.17,-168.5 167.52,-168.5 177.44,-168.5"/>
+<polygon fill="black" stroke="black" points="177.27,-172 187.27,-168.5 177.27,-165 177.27,-172"/>
+</g>
+<!-- 4430481536 -->
+<g id="node7" class="node">
+<title>4430481536</title>
+<g id="a_node7"><a xlink:title="x1w1+x2w2 
+ data -6.0000 
+ grad 0.5000">
+<path fill="none" stroke="black" d="M456,-159C456,-159 388,-159 388,-159 382,-159 376,-153 376,-147 376,-147 376,-118 376,-118 376,-112 382,-106 388,-106 388,-106 456,-106 456,-106 462,-106 468,-112 468,-118 468,-118 468,-147 468,-147 468,-153 462,-159 456,-159"/>
+<text text-anchor="middle" x="422" y="-143.8" font-family="Times,serif" font-size="14.00">x1w1+x2w2 </text>
+<text text-anchor="middle" x="422" y="-128.8" font-family="Times,serif" font-size="14.00"> data -6.0000 </text>
+<text text-anchor="middle" x="422" y="-113.8" font-family="Times,serif" font-size="14.00"> grad 0.5000</text>
+</a>
+</g>
+</g>
+<!-- PL4430481152 -->
+<g id="node11" class="node">
+<title>PL4430481152</title>
+<g id="a_node11"><a xlink:title="+">
+<path fill="none" stroke="black" d="M521.33,-179C521.33,-179 511.67,-179 511.67,-179 507.83,-179 504,-175.17 504,-171.33 504,-171.33 504,-163.67 504,-163.67 504,-159.83 507.83,-156 511.67,-156 511.67,-156 521.33,-156 521.33,-156 525.17,-156 529,-159.83 529,-163.67 529,-163.67 529,-171.33 529,-171.33 529,-175.17 525.17,-179 521.33,-179"/>
+<text text-anchor="middle" x="516.5" y="-163.8" font-family="Times,serif" font-size="14.00">+</text>
+</a>
+</g>
+</g>
+<!-- 4430481536&#45;&gt;PL4430481152 -->
+<g id="edge7" class="edge">
+<title>4430481536-&gt;PL4430481152</title>
+<path fill="none" stroke="black" d="M468.44,-149.69C476.95,-152.91 485.5,-156.15 492.94,-158.96"/>
+<polygon fill="black" stroke="black" points="491.53,-162.17 502.12,-162.44 494,-155.62 491.53,-162.17"/>
+</g>
+<!-- PL4430481536&#45;&gt;4430481536 -->
+<g id="edge4" class="edge">
+<title>PL4430481536-&gt;4430481536</title>
+<path fill="none" stroke="black" d="M340.22,-132.5C346.71,-132.5 355.32,-132.5 364.5,-132.5"/>
+<polygon fill="black" stroke="black" points="364.36,-136 374.36,-132.5 364.36,-129 364.36,-136"/>
+</g>
+<!-- 4430480576 -->
+<g id="node9" class="node">
+<title>4430480576</title>
+<g id="a_node9"><a xlink:title="x1 
+ data 2.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M78,-124C78,-124 14,-124 14,-124 8,-124 2,-118 2,-112 2,-112 2,-83 2,-83 2,-77 8,-71 14,-71 14,-71 78,-71 78,-71 84,-71 90,-77 90,-83 90,-83 90,-112 90,-112 90,-118 84,-124 78,-124"/>
+<text text-anchor="middle" x="46" y="-108.8" font-family="Times,serif" font-size="14.00">x1 </text>
+<text text-anchor="middle" x="46" y="-93.8" font-family="Times,serif" font-size="14.00"> data 2.0000 </text>
+<text text-anchor="middle" x="46" y="-78.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4430480576&#45;&gt;MU4430480912 -->
+<g id="edge8" class="edge">
+<title>4430480576-&gt;MU4430480912</title>
+<path fill="none" stroke="black" d="M90.34,-97.5C99.32,-97.5 108.43,-97.5 116.28,-97.5"/>
+<polygon fill="black" stroke="black" points="116.18,-101 126.18,-97.5 116.18,-94 116.18,-101"/>
+</g>
+<!-- 4430481152 -->
+<g id="node10" class="node">
+<title>4430481152</title>
+<g id="a_node10"><a xlink:title="n 
+ data 0.8814 
+ grad 0.5000">
+<path fill="none" stroke="black" d="M641,-194C641,-194 577,-194 577,-194 571,-194 565,-188 565,-182 565,-182 565,-153 565,-153 565,-147 571,-141 577,-141 577,-141 641,-141 641,-141 647,-141 653,-147 653,-153 653,-153 653,-182 653,-182 653,-188 647,-194 641,-194"/>
+<text text-anchor="middle" x="609" y="-178.8" font-family="Times,serif" font-size="14.00">n </text>
+<text text-anchor="middle" x="609" y="-163.8" font-family="Times,serif" font-size="14.00"> data 0.8814 </text>
+<text text-anchor="middle" x="609" y="-148.8" font-family="Times,serif" font-size="14.00"> grad 0.5000</text>
+</a>
+</g>
+</g>
+<!-- 4430481152&#45;&gt;tanh4430485088 -->
+<g id="edge13" class="edge">
+<title>4430481152-&gt;tanh4430485088</title>
+<path fill="none" stroke="black" d="M653.27,-167.5C661.48,-167.5 669.91,-167.5 677.61,-167.5"/>
+<polygon fill="black" stroke="black" points="677.48,-171 687.48,-167.5 677.48,-164 677.48,-171"/>
+</g>
+<!-- PL4430481152&#45;&gt;4430481152 -->
+<g id="edge5" class="edge">
+<title>PL4430481152-&gt;4430481152</title>
+<path fill="none" stroke="black" d="M529.33,-167.5C535.73,-167.5 544.15,-167.5 553.09,-167.5"/>
+<polygon fill="black" stroke="black" points="553.08,-171 563.08,-167.5 553.08,-164 553.08,-171"/>
+</g>
+<!-- 4430484848 -->
+<g id="node12" class="node">
+<title>4430484848</title>
+<g id="a_node12"><a xlink:title="w1 
+ data -3.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M80,-53C80,-53 12,-53 12,-53 6,-53 0,-47 0,-41 0,-41 0,-12 0,-12 0,-6 6,0 12,0 12,0 80,0 80,0 86,0 92,-6 92,-12 92,-12 92,-41 92,-41 92,-47 86,-53 80,-53"/>
+<text text-anchor="middle" x="46" y="-37.8" font-family="Times,serif" font-size="14.00">w1 </text>
+<text text-anchor="middle" x="46" y="-22.8" font-family="Times,serif" font-size="14.00"> data -3.0000 </text>
+<text text-anchor="middle" x="46" y="-7.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4430484848&#45;&gt;MU4430480912 -->
+<g id="edge6" class="edge">
+<title>4430484848-&gt;MU4430480912</title>
+<path fill="none" stroke="black" d="M81.59,-53.34C94.15,-63.08 107.89,-73.75 118.73,-82.16"/>
+<polygon fill="black" stroke="black" points="116.51,-84.86 126.55,-88.23 120.8,-79.33 116.51,-84.86"/>
+</g>
+<!-- 4430485952 -->
+<g id="node13" class="node">
+<title>4430485952</title>
+<g id="a_node13"><a xlink:title="b 
+ data 6.8814 
+ grad 0.5000">
+<path fill="none" stroke="black" d="M454,-230C454,-230 390,-230 390,-230 384,-230 378,-224 378,-218 378,-218 378,-189 378,-189 378,-183 384,-177 390,-177 390,-177 454,-177 454,-177 460,-177 466,-183 466,-189 466,-189 466,-218 466,-218 466,-224 460,-230 454,-230"/>
+<text text-anchor="middle" x="422" y="-214.8" font-family="Times,serif" font-size="14.00">b </text>
+<text text-anchor="middle" x="422" y="-199.8" font-family="Times,serif" font-size="14.00"> data 6.8814 </text>
+<text text-anchor="middle" x="422" y="-184.8" font-family="Times,serif" font-size="14.00"> grad 0.5000</text>
+</a>
+</g>
+</g>
+<!-- 4430485952&#45;&gt;PL4430481152 -->
+<g id="edge12" class="edge">
+<title>4430485952-&gt;PL4430481152</title>
+<path fill="none" stroke="black" d="M466.27,-186.66C475.5,-183.07 484.88,-179.42 492.95,-176.28"/>
+<polygon fill="black" stroke="black" points="494.19,-179.55 502.24,-172.66 491.65,-173.03 494.19,-179.55"/>
+</g>
+<!-- 4430480336 -->
+<g id="node14" class="node">
+<title>4430480336</title>
+<g id="a_node14"><a xlink:title="x2 
+ data 0.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M78,-266C78,-266 14,-266 14,-266 8,-266 2,-260 2,-254 2,-254 2,-225 2,-225 2,-219 8,-213 14,-213 14,-213 78,-213 78,-213 84,-213 90,-219 90,-225 90,-225 90,-254 90,-254 90,-260 84,-266 78,-266"/>
+<text text-anchor="middle" x="46" y="-250.8" font-family="Times,serif" font-size="14.00">x2 </text>
+<text text-anchor="middle" x="46" y="-235.8" font-family="Times,serif" font-size="14.00"> data 0.0000 </text>
+<text text-anchor="middle" x="46" y="-220.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4430480336&#45;&gt;MU4430482016 -->
+<g id="edge11" class="edge">
+<title>4430480336-&gt;MU4430482016</title>
+<path fill="none" stroke="black" d="M81.59,-212.66C94.15,-202.92 107.89,-192.25 118.73,-183.84"/>
+<polygon fill="black" stroke="black" points="120.8,-186.67 126.55,-177.77 116.51,-181.14 120.8,-186.67"/>
+</g>
+<!-- 4430483936 -->
+<g id="node15" class="node">
+<title>4430483936</title>
+<g id="a_node15"><a xlink:title="w2 
+ data 1.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M78,-195C78,-195 14,-195 14,-195 8,-195 2,-189 2,-183 2,-183 2,-154 2,-154 2,-148 8,-142 14,-142 14,-142 78,-142 78,-142 84,-142 90,-148 90,-154 90,-154 90,-183 90,-183 90,-189 84,-195 78,-195"/>
+<text text-anchor="middle" x="46" y="-179.8" font-family="Times,serif" font-size="14.00">w2 </text>
+<text text-anchor="middle" x="46" y="-164.8" font-family="Times,serif" font-size="14.00"> data 1.0000 </text>
+<text text-anchor="middle" x="46" y="-149.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4430483936&#45;&gt;MU4430482016 -->
+<g id="edge10" class="edge">
+<title>4430483936-&gt;MU4430482016</title>
+<path fill="none" stroke="black" d="M90.34,-168.5C99.32,-168.5 108.43,-168.5 116.28,-168.5"/>
+<polygon fill="black" stroke="black" points="116.18,-172 126.18,-168.5 116.18,-165 116.18,-172"/>
+</g>
+</g>
+</svg>

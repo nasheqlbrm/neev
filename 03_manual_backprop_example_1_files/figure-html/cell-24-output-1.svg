@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="666pt" height="202pt" viewBox="0.00 0.00 666.00 202.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 198)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-198 662,-198 662,4 -4,4"/>
+<!-- 4426941104 -->
+<g id="node1" class="node">
+<title>4426941104</title>
+<g id="a_node1"><a xlink:title="e 
+ data -6.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M268.5,-88C268.5,-88 200.5,-88 200.5,-88 194.5,-88 188.5,-82 188.5,-76 188.5,-76 188.5,-47 188.5,-47 188.5,-41 194.5,-35 200.5,-35 200.5,-35 268.5,-35 268.5,-35 274.5,-35 280.5,-41 280.5,-47 280.5,-47 280.5,-76 280.5,-76 280.5,-82 274.5,-88 268.5,-88"/>
+<text text-anchor="middle" x="234.5" y="-72.8" font-family="Times,serif" font-size="14.00">e </text>
+<text text-anchor="middle" x="234.5" y="-57.8" font-family="Times,serif" font-size="14.00"> data -6.0000 </text>
+<text text-anchor="middle" x="234.5" y="-42.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- PL4428005280 -->
+<g id="node8" class="node">
+<title>PL4428005280</title>
+<g id="a_node8"><a xlink:title="+">
+<path fill="none" stroke="black" d="M335.33,-108C335.33,-108 325.67,-108 325.67,-108 321.83,-108 318,-104.17 318,-100.33 318,-100.33 318,-92.67 318,-92.67 318,-88.83 321.83,-85 325.67,-85 325.67,-85 335.33,-85 335.33,-85 339.17,-85 343,-88.83 343,-92.67 343,-92.67 343,-100.33 343,-100.33 343,-104.17 339.17,-108 335.33,-108"/>
+<text text-anchor="middle" x="330.5" y="-92.8" font-family="Times,serif" font-size="14.00">+</text>
+</a>
+</g>
+</g>
+<!-- 4426941104&#45;&gt;PL4428005280 -->
+<g id="edge4" class="edge">
+<title>4426941104-&gt;PL4428005280</title>
+<path fill="none" stroke="black" d="M280.85,-78.38C290.06,-81.81 299.35,-85.28 307.32,-88.24"/>
+<polygon fill="black" stroke="black" points="305.85,-91.43 316.45,-91.64 308.3,-84.87 305.85,-91.43"/>
+</g>
+<!-- MU4426941104 -->
+<g id="node2" class="node">
+<title>MU4426941104</title>
+<g id="a_node2"><a xlink:title="*">
+<path fill="none" stroke="black" d="M143.33,-73C143.33,-73 135.67,-73 135.67,-73 131.83,-73 128,-69.17 128,-65.33 128,-65.33 128,-57.67 128,-57.67 128,-53.83 131.83,-50 135.67,-50 135.67,-50 143.33,-50 143.33,-50 147.17,-50 151,-53.83 151,-57.67 151,-57.67 151,-65.33 151,-65.33 151,-69.17 147.17,-73 143.33,-73"/>
+<text text-anchor="middle" x="139.5" y="-57.8" font-family="Times,serif" font-size="14.00">*</text>
+</a>
+</g>
+</g>
+<!-- MU4426941104&#45;&gt;4426941104 -->
+<g id="edge1" class="edge">
+<title>MU4426941104-&gt;4426941104</title>
+<path fill="none" stroke="black" d="M151.17,-61.5C157.89,-61.5 167.16,-61.5 177.05,-61.5"/>
+<polygon fill="black" stroke="black" points="176.87,-65 186.87,-61.5 176.87,-58 176.87,-65"/>
+</g>
+<!-- 4426942160 -->
+<g id="node3" class="node">
+<title>4426942160</title>
+<g id="a_node3"><a xlink:title="a 
+ data 2.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M78,-124C78,-124 14,-124 14,-124 8,-124 2,-118 2,-112 2,-112 2,-83 2,-83 2,-77 8,-71 14,-71 14,-71 78,-71 78,-71 84,-71 90,-77 90,-83 90,-83 90,-112 90,-112 90,-118 84,-124 78,-124"/>
+<text text-anchor="middle" x="46" y="-108.8" font-family="Times,serif" font-size="14.00">a </text>
+<text text-anchor="middle" x="46" y="-93.8" font-family="Times,serif" font-size="14.00"> data 2.0000 </text>
+<text text-anchor="middle" x="46" y="-78.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4426942160&#45;&gt;MU4426941104 -->
+<g id="edge5" class="edge">
+<title>4426942160-&gt;MU4426941104</title>
+<path fill="none" stroke="black" d="M90.34,-80.45C99.65,-76.79 109.09,-73.07 117.12,-69.91"/>
+<polygon fill="black" stroke="black" points="118.26,-73.22 126.29,-66.31 115.7,-66.71 118.26,-73.22"/>
+</g>
+<!-- 4426941248 -->
+<g id="node4" class="node">
+<title>4426941248</title>
+<g id="a_node4"><a xlink:title="c 
+ data 10.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M270,-159C270,-159 199,-159 199,-159 193,-159 187,-153 187,-147 187,-147 187,-118 187,-118 187,-112 193,-106 199,-106 199,-106 270,-106 270,-106 276,-106 282,-112 282,-118 282,-118 282,-147 282,-147 282,-153 276,-159 270,-159"/>
+<text text-anchor="middle" x="234.5" y="-143.8" font-family="Times,serif" font-size="14.00">c </text>
+<text text-anchor="middle" x="234.5" y="-128.8" font-family="Times,serif" font-size="14.00"> data 10.0000 </text>
+<text text-anchor="middle" x="234.5" y="-113.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4426941248&#45;&gt;PL4428005280 -->
+<g id="edge9" class="edge">
+<title>4426941248-&gt;PL4428005280</title>
+<path fill="none" stroke="black" d="M282.5,-114.5C291.05,-111.22 299.61,-107.95 307.03,-105.11"/>
+<polygon fill="black" stroke="black" points="308.09,-108.45 316.18,-101.6 305.59,-101.91 308.09,-108.45"/>
+</g>
+<!-- 4428188016 -->
+<g id="node5" class="node">
+<title>4428188016</title>
+<g id="a_node5"><a xlink:title="L 
+ data -8.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M646,-158C646,-158 578,-158 578,-158 572,-158 566,-152 566,-146 566,-146 566,-117 566,-117 566,-111 572,-105 578,-105 578,-105 646,-105 646,-105 652,-105 658,-111 658,-117 658,-117 658,-146 658,-146 658,-152 652,-158 646,-158"/>
+<text text-anchor="middle" x="612" y="-142.8" font-family="Times,serif" font-size="14.00">L </text>
+<text text-anchor="middle" x="612" y="-127.8" font-family="Times,serif" font-size="14.00"> data -8.0000 </text>
+<text text-anchor="middle" x="612" y="-112.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- MU4428188016 -->
+<g id="node6" class="node">
+<title>MU4428188016</title>
+<g id="a_node6"><a xlink:title="*">
+<path fill="none" stroke="black" d="M522.33,-143C522.33,-143 514.67,-143 514.67,-143 510.83,-143 507,-139.17 507,-135.33 507,-135.33 507,-127.67 507,-127.67 507,-123.83 510.83,-120 514.67,-120 514.67,-120 522.33,-120 522.33,-120 526.17,-120 530,-123.83 530,-127.67 530,-127.67 530,-135.33 530,-135.33 530,-139.17 526.17,-143 522.33,-143"/>
+<text text-anchor="middle" x="518.5" y="-127.8" font-family="Times,serif" font-size="14.00">*</text>
+</a>
+</g>
+</g>
+<!-- MU4428188016&#45;&gt;4428188016 -->
+<g id="edge2" class="edge">
+<title>MU4428188016-&gt;4428188016</title>
+<path fill="none" stroke="black" d="M530.36,-131.5C536.68,-131.5 545.2,-131.5 554.34,-131.5"/>
+<polygon fill="black" stroke="black" points="554.17,-135 564.17,-131.5 554.17,-128 554.17,-135"/>
+</g>
+<!-- 4428005280 -->
+<g id="node7" class="node">
+<title>4428005280</title>
+<g id="a_node7"><a xlink:title="d 
+ data 4.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M457,-123C457,-123 393,-123 393,-123 387,-123 381,-117 381,-111 381,-111 381,-82 381,-82 381,-76 387,-70 393,-70 393,-70 457,-70 457,-70 463,-70 469,-76 469,-82 469,-82 469,-111 469,-111 469,-117 463,-123 457,-123"/>
+<text text-anchor="middle" x="425" y="-107.8" font-family="Times,serif" font-size="14.00">d </text>
+<text text-anchor="middle" x="425" y="-92.8" font-family="Times,serif" font-size="14.00"> data 4.0000 </text>
+<text text-anchor="middle" x="425" y="-77.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4428005280&#45;&gt;MU4428188016 -->
+<g id="edge7" class="edge">
+<title>4428005280-&gt;MU4428188016</title>
+<path fill="none" stroke="black" d="M469.34,-113.08C478.65,-116.64 488.09,-120.25 496.12,-123.32"/>
+<polygon fill="black" stroke="black" points="494.69,-126.52 505.28,-126.83 497.19,-119.98 494.69,-126.52"/>
+</g>
+<!-- PL4428005280&#45;&gt;4428005280 -->
+<g id="edge3" class="edge">
+<title>PL4428005280-&gt;4428005280</title>
+<path fill="none" stroke="black" d="M343.22,-96.5C350.14,-96.5 359.46,-96.5 369.31,-96.5"/>
+<polygon fill="black" stroke="black" points="369.04,-100 379.04,-96.5 369.04,-93 369.04,-100"/>
+</g>
+<!-- 4426941872 -->
+<g id="node9" class="node">
+<title>4426941872</title>
+<g id="a_node9"><a xlink:title="b 
+ data -3.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M80,-53C80,-53 12,-53 12,-53 6,-53 0,-47 0,-41 0,-41 0,-12 0,-12 0,-6 6,0 12,0 12,0 80,0 80,0 86,0 92,-6 92,-12 92,-12 92,-41 92,-41 92,-47 86,-53 80,-53"/>
+<text text-anchor="middle" x="46" y="-37.8" font-family="Times,serif" font-size="14.00">b </text>
+<text text-anchor="middle" x="46" y="-22.8" font-family="Times,serif" font-size="14.00"> data -3.0000 </text>
+<text text-anchor="middle" x="46" y="-7.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4426941872&#45;&gt;MU4426941104 -->
+<g id="edge6" class="edge">
+<title>4426941872-&gt;MU4426941104</title>
+<path fill="none" stroke="black" d="M92.48,-43.9C100.97,-47.15 109.48,-50.4 116.83,-53.21"/>
+<polygon fill="black" stroke="black" points="115.56,-56.47 126.15,-56.78 118.06,-49.94 115.56,-56.47"/>
+</g>
+<!-- 4428005328 -->
+<g id="node10" class="node">
+<title>4428005328</title>
+<g id="a_node10"><a xlink:title="f 
+ data -2.0000 
+ grad 0.0000">
+<path fill="none" stroke="black" d="M459,-194C459,-194 391,-194 391,-194 385,-194 379,-188 379,-182 379,-182 379,-153 379,-153 379,-147 385,-141 391,-141 391,-141 459,-141 459,-141 465,-141 471,-147 471,-153 471,-153 471,-182 471,-182 471,-188 465,-194 459,-194"/>
+<text text-anchor="middle" x="425" y="-178.8" font-family="Times,serif" font-size="14.00">f </text>
+<text text-anchor="middle" x="425" y="-163.8" font-family="Times,serif" font-size="14.00"> data -2.0000 </text>
+<text text-anchor="middle" x="425" y="-148.8" font-family="Times,serif" font-size="14.00"> grad 0.0000</text>
+</a>
+</g>
+</g>
+<!-- 4428005328&#45;&gt;MU4428188016 -->
+<g id="edge8" class="edge">
+<title>4428005328-&gt;MU4428188016</title>
+<path fill="none" stroke="black" d="M471.48,-149.61C480.08,-146.22 488.68,-142.84 496.09,-139.92"/>
+<polygon fill="black" stroke="black" points="497.13,-143.27 505.16,-136.36 494.57,-136.76 497.13,-143.27"/>
+</g>
+</g>
+</svg>
